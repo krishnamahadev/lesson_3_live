@@ -7,6 +7,13 @@ body{
 }
 
 
+.container-centred
+{
+    padding-left: 1 rem;
+    padding-right: 1 rem;
+    /* background-color: red; */
+}
+
 
 
 

@@ -87,7 +87,24 @@ hr
 }
 
 
+.navigation-container .nav-brand
+{
+    font-weight: bold;
+    font-size: medium;
+}
 
+
+.nav-brand
+{
+    font-size: 40 rem;
+}
+
+
+
+.navigation-container .link-active
+{
+font-weight: bold;    
+}
 
 
 

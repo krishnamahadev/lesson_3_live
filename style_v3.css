@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root
+{
+    --primary-color : #be185d;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr
+{
+    margin: 1 rem 0 rem ;
+}
+
+.container
+{
+    /* Padding is not working. To check with Divya */
+    padding-left: 1 rem;
+    padding-right: 1 rem; 
+    /* background-color: red; backgroup color works but padding is not working */
+}
+
+
+
+.container-centered
+{
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.link
+{
+    text-decoration:none ;
+    padding: 0.5 rem 1 rem;
+}
+
+
+.link-primlink
+{
+    background-color: var(--primary-color);
+    border-radius: 0.5 rem; /* to check with Divya. Border radius not working*/
+    color: white;
+}
+
+
+.link-seclink
+{
+    color: var(--primary-color);
+    border-radius: 0.5 rem;
+    border: 1px solid var(--primary-color);
+}
+
+
+.non-bullet
+{
+    list-style: none;
+}
+
+.inline-list
+{
+    display: inline;
+    padding: 0 rem 1.5 rem;
+}
+
+
+.navigation-container
+{
+    background-color: var(--primary-color);
+}
+
+.navigation-container .link
+{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

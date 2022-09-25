@@ -7,12 +7,19 @@ body{
 }
 
 
-.container-centred
+.container
 {
+    /* Padding is not working. To check with Divya */
     padding-left: 1 rem;
-    padding-right: 1 rem;
-    /* background-color: red; */
+    padding-right: 1 rem; 
+    /* background-color: red; backgroup color works but padding is not working */
 }
+
+
+
+
+
+
 
 
 

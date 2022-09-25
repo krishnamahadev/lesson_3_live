@@ -19,7 +19,7 @@
 
 <!-- 3rd way of doing CSS -->
 <!-- external link -->
-<link rel="stylesheet" href="style_v2.css"/> 
+<link rel="stylesheet" href="style_v3.css"/> 
 
 </head>
 
@@ -69,10 +69,10 @@
 
 
    <h2>@links</h2>
-   <a href="https://google.com">krishna</a>
+   <a href="https://google.com" class="link">krishna</a>
 
-   <a href="/" class = "link-primlink">primary link</a>
-   <a href="/" class = "link-seclink">secondary link</a>
+   <a href="/" class = "link link-primlink">primary link</a>
+   <a href="/" class = "link link-seclink">secondary link</a>
 
 
    <p>Note : Block - when you write and the space taken is entire row
@@ -129,12 +129,12 @@
 
 <h2>@nav</h2>
 
-<nav>
-    <div class="navigation">I am a developer</div>
-    <ul class="list-non-bullet">
-        <li><a href="/">home</a></li>
-        <li><a href="/">projects</a></li>
-        <li><a href="/">blogs</a></li>
+<nav class="navigation-container">
+    <div class="nav-brand">I am a developer</div>
+    <ul class="list-non-bullet-nav-pills">
+        <li class="inline-list"><a class = "link" href="/">home</a></li >
+        <li  class="inline-list"><a class = "link"href="/">projects</a></li >
+        <li  class="inline-list"><a class = "link" href="/">blogs</a></li>
     </ul>
 </nav>
 
@@ -144,9 +144,7 @@
 
 <header>
     <img src="images/hero_image_maroon.svg">
-    <h1>heading insider hero</h1>
-</header>
-
+    <h1>heading insider hero</h1> 
 <p>Note : PNG - blog posts/social media ; SVG - Website and projects </p>
 
 

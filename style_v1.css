@@ -39,7 +39,8 @@ body{
     
     background-color: var(--primary-color);
     text-decoration: none;
-    border-radius: 1 rem;
+    padding: 0.5 rem 1 rem;
+    border-radius: 10 rem;
     color: white;
 }
 
@@ -47,5 +48,30 @@ body{
 {
     color: var(--primary-color);
     text-decoration: none;
+    padding: 0.5 rem 1 rem;
+    border: 1px solid var(--primary-color);
 }
+
+
+hr
+{
+    margin: 2 rem 0 rem;
+}
+
+
+.non-bullet
+{
+    list-style: none;
+}
+
+
+.inline-list
+{
+    display: inline;
+    padding: 0rem 0.5 rem;
+}
+
+
+
+
 

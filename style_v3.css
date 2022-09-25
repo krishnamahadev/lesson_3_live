@@ -4,6 +4,7 @@
 :root
 {
     --primary-color : #be185d;
+    --dark-gray : #64748b;
 }
 
 
@@ -72,6 +73,7 @@ hr
 .navigation-container
 {
     background-color: var(--primary-color);
+    border-bottom-left-radius: 0.5 rem;
 }
 
 .navigation-container .link
@@ -94,12 +96,6 @@ hr
 }
 
 
-.nav-brand
-{
-    font-size: 40 rem;
-}
-
-
 
 .navigation-container .link-active
 {
@@ -107,6 +103,27 @@ font-weight: bold;
 }
 
 
+
+.hero
+{
+    padding:2rem;
+    
+}
+
+.hero .hero-img
+{
+    max-width: 350px;
+    display: block;
+    /* text-align: center; */
+    margin: auto;
+}
+
+
+.hero .hero-heading
+{
+    padding: 1rem;
+    color: var(--dark-gray);
+}
 
 
 

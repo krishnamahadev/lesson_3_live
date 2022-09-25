@@ -2,7 +2,33 @@
 
 
 
+:root{
+    --primary-color: #9d174d;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 
+}
+
+
+/* container */
+
+.container-fluid-container
+{
+    padding-left: 2rem;
+    padding-right: 2 rem;
+}
+
+/* the above function of calling class will do match on the first word and changes are applied whereever it finds a match */
+
+.container-centred-container
+{
+    max-width: 600px;
+    margin: auto;
+}
+
+.primlink
+{
+    color: var(--primary-color);
 }

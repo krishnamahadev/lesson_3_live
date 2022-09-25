@@ -15,14 +15,14 @@ body{
 
 hr
 {
-    margin: 1 rem 0 rem ;
+    margin: 1rem 0rem ;
 }
 
 .container
 {
     /* Padding is not working. To check with Divya */
-    padding-left: 1 rem;
-    padding-right: 1 rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
     /* background-color: red; backgroup color works but padding is not working */
 }
 
@@ -38,14 +38,14 @@ hr
 .link
 {
     text-decoration:none ;
-    padding: 0.5 rem 1 rem;
+    padding: 0.5rem 0.5rem;
 }
 
 
 .link-primlink
 {
     background-color: var(--primary-color);
-    border-radius: 0.5 rem; /* to check with Divya. Border radius not working*/
+    border-radius: 0.5rem; /* to check with Divya. Border radius not working*/
     color: white;
 }
 
@@ -53,8 +53,8 @@ hr
 .link-seclink
 {
     color: var(--primary-color);
-    border-radius: 0.5 rem;
-    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    border: 0.5px solid var(--primary-color);
 }
 
 
@@ -66,14 +66,14 @@ hr
 .inline-list
 {
     display: inline;
-    padding: 0 rem 1.5 rem;
+    padding: 0rem 1rem;
 }
 
 
 .navigation-container
 {
     background-color: var(--primary-color);
-    border-bottom-left-radius: 0.5 rem;
+    border-bottom-left-radius: 0.5rem;
 }
 
 .navigation-container .link
@@ -85,7 +85,7 @@ hr
 .list-non-bullet-nav-pills
 {
     text-align: right;
-    padding: 1 rem;
+    padding: 1rem;
 }
 
 
@@ -123,6 +123,7 @@ font-weight: bold;
 {
     padding: 1rem;
     color: var(--dark-gray);
+    text-align: center;
 }
 
 

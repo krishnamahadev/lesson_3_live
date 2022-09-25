@@ -39,7 +39,7 @@ body{
     
     background-color: var(--primary-color);
     text-decoration: none;
-    border-radius: 0.5 rem;
+    border-radius: 1 rem;
     color: white;
 }
 

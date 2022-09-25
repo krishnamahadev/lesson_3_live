@@ -77,6 +77,13 @@ hr
 .navigation-container .link
 {
     color: white;
+    
+}
+
+.list-non-bullet-nav-pills
+{
+    text-align: right;
+    padding: 1 rem;
 }
 
 

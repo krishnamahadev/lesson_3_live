@@ -5,10 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component library</title>
+
+
+    <!-- 1st way of doing CSS -->
+<!-- 
+<style>
+    body {
+        color: red;
+    }
+</style> -->
+
+
+
+<!-- 3rd way of doing CSS -->
+<!-- external link -->
+<link rel="stylesheet" href="style.css"/> 
+
 </head>
+
+
+
+
+<!-- <link rel="stylesheet" href="style.css"/> -->
+
+
+
 <body>
-   <h1> Welcome to Krishna's component library</h1> 
-   <p>I am creating a personal library which will make all my projects look goood</p>
+    <!-- this is the 2nd way of doing CSS. Including attribute style -->
+   <!-- <h1 style="color: red;"> Welcome to Krishna's component library</h1>  -->
+
+   <h1 id = "main-header">Welcome to Krishna's component library</h1>
+   <p class="para">I am creating a personal library which will make all my projects look goood</p>
    <p>Note : some of the tags have meaning and some dont. It is wise that we use tags that has meaning.
              p tag is used to add a paragraph.
    </p>
@@ -29,7 +56,7 @@
    </p>
 
    <h3>fluid container</h3>
-   <div>This is a fluid container and will go till the end of the page</div>
+   <div class="para">This is a fluid container and will go till the end of the page</div>
 
 
    <h3>centered container</h3>

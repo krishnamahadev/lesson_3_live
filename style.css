@@ -1,0 +1,24 @@
+
+body{
+    color: red ;
+}
+
+
+h1{
+    color: aqua;
+}
+
+
+h2
+{
+    color: darkblue;
+}
+
+
+#main-header{
+    color: blueviolet;
+}
+
+.para{
+    color: darkgray;
+}

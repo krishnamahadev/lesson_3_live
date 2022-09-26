@@ -5,6 +5,8 @@
 {
     --primary-color : #be185d;
     --dark-gray : #64748b;
+    --light-grey : #f1f5f9;
+
 }
 
 
@@ -128,7 +130,7 @@ font-weight: bold;
 .hero .hero-heading
 {
     padding: 1rem;
-    color: var(--dark-gray);
+    /* color: var(--dark-gray); */
     text-align: center;
 }
 
@@ -145,7 +147,7 @@ font-weight: bold;
 
 .ow
 {
-    background-color: var(--dark-gray);
+    background-color: var(--light-grey);
 }
 
 

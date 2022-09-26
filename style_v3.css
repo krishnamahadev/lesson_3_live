@@ -11,6 +11,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr
@@ -73,8 +74,12 @@ hr
 .navigation-container
 {
     background-color: var(--primary-color);
-    border-bottom-left-radius: 0.5rem;
+    border-bottom-left-radius: 1rem;
     padding: 1rem 0.rem;
+}
+
+.nav-brand{
+    padding: 1rem 0.5rem;
 }
 
 .navigation-container .link
@@ -148,7 +153,16 @@ font-weight: bold;
 .footer
 {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+
+.footer .link
+{
+    color: white;
 }
 
 

@@ -74,6 +74,7 @@ hr
 {
     background-color: var(--primary-color);
     border-bottom-left-radius: 0.5rem;
+    padding: 1rem 0.rem;
 }
 
 .navigation-container .link
@@ -144,6 +145,11 @@ font-weight: bold;
 
 
 
+.footer
+{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+}
 
 
 

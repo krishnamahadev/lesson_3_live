@@ -50,8 +50,7 @@ hr
     background-color: var(--primary-color);
     border-radius: 0.5rem; /* to check with Divya. Border radius not working*/
     color: white;
-    max-width: 600px;
-    margin: auto;
+
     
 }
 

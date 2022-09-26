@@ -32,9 +32,9 @@ hr
 
 
 .container-centered
-{
-    max-width: 600px;
+{max-width: 600px;
     margin: auto;
+    
 }
 
 
@@ -50,6 +50,9 @@ hr
     background-color: var(--primary-color);
     border-radius: 0.5rem; /* to check with Divya. Border radius not working*/
     color: white;
+    max-width: 600px;
+    margin: auto;
+    
 }
 
 
